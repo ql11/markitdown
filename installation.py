@@ -1,1 +1,1 @@
-pip install -e 'packages/markitdown[all]'
+pip install -e 'packages/markitdown[pdf]'

@@ -12,8 +12,8 @@ import os
 from markitdown import MarkItDown
 # 定义源文件夹和目标文件夹
 
-# 默认为'/Users/qinlang/Downloads/导出的条目'文件夹，如果文件夹为空将定义改为输入路径
-if not os.listdir('/Users/qinlang/Downloads/导出的条目'):
+# 默认为'source'文件夹，如果文件夹为空将定义改为输入路径
+if not os.listdir('source'):
     SOURCE_FOLDER = input('请输入源文件夹路径：')
 else:
     SOURCE_FOLDER = 'source'
