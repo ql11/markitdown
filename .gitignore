@@ -167,9 +167,6 @@ src/.DS_Store
 
 # ... 已有代码 ...
 
-# Ignore run[数字].py files
-run*.py
-
 # Ignore source and output folders
-source/
-output/
+source/*.*
+output/*.*
